@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int num;
+    scanf("%d", &num);
+    char str[11] = { 0 };
+    sprintf(str, "%d", num);
+    double sum=0;
+    int c = 0;
+    for (int i = 0; str[i]; i++) {
+        if (str[i] == '-') continue;
+        sum += str[i] - '0';
+        c++;
+    }
+    sum /= c;
+    printf("%lf", sum);
+    return 0;
+}
