@@ -59,10 +59,6 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "*.mysql": "mysql-notebook",
-    "Tesk_1.C": "cpp",
-    "Tesk_2.C": "cpp",
-    "Tesk_3.C": "cpp",
-    "Tesk_4.C": "cpp",
-    "Tesk_5.C": "cpp"
+    "main.C": "cpp"
   }
 }
